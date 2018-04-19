@@ -3,6 +3,6 @@ defmodule HangmanTest do
   doctest Hangman
 
   test "greets the world" do
-    assert Hangman.hello() == :world
+    assert Hangman.hello() == :ok
   end
 end
