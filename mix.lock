@@ -1,0 +1,3 @@
+%{
+  "dictionary": {:git, "https://github.com/rawandrew/dictionary.git", "6269490c05126995d4e54a528c68d06bf821472a", []},
+}
