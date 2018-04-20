@@ -22,7 +22,7 @@ defmodule Hangman.Game do
     game
   end
 
-  def make_move(game, guess) do
+  def make_move(game, guess) when byte_size(guess) == 1 do
     accept_move(game, guess, MapSet.member?(game.used, guess))
   end
 
