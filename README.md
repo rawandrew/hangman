@@ -11,7 +11,7 @@ To add it as a dependency to a project, all you have to do is use the URL of thi
 ```elixir
 def deps do
   [
-    {:dictionary, github: "rawandrew/hangman"}
+    { :hangman, github: "rawandrew/hangman" }
   ]
 end
 ```
